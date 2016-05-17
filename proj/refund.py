@@ -83,7 +83,7 @@ def buildMailContent(refundData):
 def sendMail(content):
     server = 'smtp.qq.com'
     user = 'lampkid@qq.com'
-    password = 'ayxceudeurhubffc'
+    password = 'anquanma'
     displayName = '静悟猿基金'
     postfix = 'qq.com'
 
