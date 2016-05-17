@@ -82,7 +82,7 @@ def buildMailContent(refundData):
 
 def sendMail(content):
     server = 'smtp.qq.com'
-    user = 'lampkid@qq.com'
+    user = 'xx@qq.com'
     password = 'anquanma'
     displayName = '静悟猿基金'
     postfix = 'qq.com'
@@ -90,7 +90,7 @@ def sendMail(content):
 
     mail = Mail(server, user, password, displayName, postfix)
 
-    receivers = ['lampkid@qq.com', '497462302@qq.com', 'hh211@qq.com', '934277507@qq.com']
+    receivers = ['xx@qq.com', '497@qq.com', 'hhw@qq.com', '934@qq.com']
     subject =  '基金净值自动提醒'
     mail.send(receivers, subject, content)
 
